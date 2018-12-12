@@ -3640,6 +3640,12 @@ GameObject:
   - component: {fileID: 115896615}
   - component: {fileID: 115896618}
   - component: {fileID: 115896619}
+  - component: {fileID: 115896620}
+  - component: {fileID: 115896621}
+  - component: {fileID: 115896622}
+  - component: {fileID: 115896623}
+  - component: {fileID: 115896624}
+  - component: {fileID: 115896625}
   m_Layer: 0
   m_Name: Flowchart_01
   m_TagString: Untagged
@@ -3674,7 +3680,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 115896600}
   selectedCommands:
-  - {fileID: 115896618}
+  - {fileID: 115896613}
   variables: []
   description: 
   stepPause: 0
@@ -3910,7 +3916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: '"Oh, you''re awake, sir!" {w=1}'
+  storyText: '"Oh, you''re awake, sir! I''m Nurse Fiore" {w=1}'
   description: 
   character: {fileID: 123213077}
   portrait: {fileID: 0}
@@ -3955,7 +3961,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"This is the Der-sw--h Hospital." {w=1.5}'
   description: 
-  character: {fileID: 123213077}
+  character: {fileID: 1352587672}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -3981,7 +3987,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"You were found unconscious on a sidewalk near So--el Road." {w=1}'
   description: 
-  character: {fileID: 123213077}
+  character: {fileID: 1352587672}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -4007,7 +4013,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"He will arrive shortly." {w=1}'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1352587672}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -4051,7 +4057,7 @@ MonoBehaviour:
   storyText: '"I''m going to call in Dr. Kanerva and he will be able to inform you
     on the details." {w=2}'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1352587672}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -4078,7 +4084,7 @@ MonoBehaviour:
   storyText: "\"I\u2019ll place it here for you to look at in your own time, okay?\"
     {w=2}"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1352587672}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -4104,7 +4110,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '"You also have a letter from a friend of yours." {w=1}'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1352587672}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -4166,7 +4172,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 115896615}
+  - {fileID: 115896621}
+  - {fileID: 115896620}
+  - {fileID: 115896623}
+  - {fileID: 115896625}
   - {fileID: 115896619}
+  - {fileID: 115896624}
+  - {fileID: 115896622}
 --- !u!114 &115896617
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4202,7 +4214,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 29
+    floatVal: 28
   durationOLD: 0
 --- !u!114 &115896619
 MonoBehaviour:
@@ -4217,9 +4229,157 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
+  storyText: '"I would like to quickly assess a few things first and I would like
+    your co-operation." {w=1}'
+  description: 
+  character: {fileID: 275719227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
+--- !u!114 &115896621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
   storyText: '"I''m Dr. Kanerva." {w=1}'
   description: 
   character: {fileID: 275719227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  storyText: '"Um... ok. {w=1}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  storyText: '"How are you feeling?" {w=1}'
+  description: 
+  character: {fileID: 275719227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  storyText: '"This is so I can get a clearer idea on the situation at hand." {w=1}'
+  description: 
+  character: {fileID: 275719227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  storyText: '"I, do not know." {w=1}'
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -5834,7 +5994,7 @@ Transform:
   m_LocalScale: {x: 12, y: 6, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 20
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &190687189
 MeshRenderer:
@@ -8472,7 +8632,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1020831287}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &275719227
 MonoBehaviour:
@@ -11521,7 +11681,7 @@ Transform:
   m_LocalScale: {x: 9.300004, y: 4, z: 0.4000002}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 17
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &402979824
 MeshRenderer:
@@ -21299,8 +21459,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 877600946}
-  m_LocalRotation: {x: -0.00000007292046, y: 0.96571255, z: 0.25961393, w: 0.00000027124963}
-  m_LocalPosition: {x: -0.78420925, y: -0.75134325, z: 1.7264366}
+  m_LocalRotation: {x: -0.0028356584, y: 0.98813486, z: -0.03598694, w: 0.1492867}
+  m_LocalPosition: {x: -0.74300003, y: -0.3889999, z: 1.6049993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 846462573}
@@ -24327,7 +24487,7 @@ Transform:
   m_LocalScale: {x: 3.2000117, y: 4, z: 0.4000002}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 25
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1011361150
 MeshRenderer:
@@ -24777,6 +24937,7 @@ Transform:
   - {fileID: 1775022601}
   - {fileID: 115896601}
   - {fileID: 123213078}
+  - {fileID: 1352587673}
   - {fileID: 275719226}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -32396,6 +32557,54 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1352160519}
   m_Mesh: {fileID: 4300022, guid: 380de63b125847141b46060b3ddf21f2, type: 3}
+--- !u!1 &1352587671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1352587673}
+  - component: {fileID: 1352587672}
+  m_Layer: 0
+  m_Name: Nurse_Char
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1352587672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352587671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Nurse Fiore
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: Nurse Fiore
+--- !u!4 &1352587673
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352587671}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1020831287}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1357784804
 GameObject:
   m_ObjectHideFlags: 0
@@ -45886,8 +46095,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.9833211, z: 0, w: 0.1818779}
-  m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
+  m_LocalRotation: {x: -0.0028356584, y: 0.98813486, z: -0.03598694, w: 0.1492867}
+  m_LocalPosition: {x: -9.228791, y: 1.8023434, z: 28.531563}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -50008,7 +50217,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.1300006
+      value: -4.050061
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50016,7 +50225,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.72
+      value: 19.434877
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalRotation.x
@@ -50024,7 +50233,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.99701077
+      value: -0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalRotation.z
@@ -50032,7 +50241,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.07726377
+      value: 0.7071069
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_RootOrder
