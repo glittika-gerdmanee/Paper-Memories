@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paper-Memories", "Paper-Memories.csproj", "{F82EE042-49B4-D4FE-910D-75EB579D57BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paper-Memories.Editor", "Paper-Memories.Editor.csproj", "{ADA6EF7D-3CCD-745B-54E6-BABBAF63D6A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F82EE042-49B4-D4FE-910D-75EB579D57BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82EE042-49B4-D4FE-910D-75EB579D57BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82EE042-49B4-D4FE-910D-75EB579D57BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82EE042-49B4-D4FE-910D-75EB579D57BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA6EF7D-3CCD-745B-54E6-BABBAF63D6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA6EF7D-3CCD-745B-54E6-BABBAF63D6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA6EF7D-3CCD-745B-54E6-BABBAF63D6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA6EF7D-3CCD-745B-54E6-BABBAF63D6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
