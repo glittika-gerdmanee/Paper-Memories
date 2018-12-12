@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112001534, guid: c9b4f0e78dfb1244091d5fc580475ceb,
+  m_LightingDataAsset: {fileID: 112001662, guid: c9b4f0e78dfb1244091d5fc580475ceb,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -3627,8 +3627,14 @@ GameObject:
   - component: {fileID: 115896606}
   - component: {fileID: 115896604}
   - component: {fileID: 115896607}
-  - component: {fileID: 115896605}
   - component: {fileID: 115896608}
+  - component: {fileID: 115896605}
+  - component: {fileID: 115896609}
+  - component: {fileID: 115896612}
+  - component: {fileID: 115896611}
+  - component: {fileID: 115896610}
+  - component: {fileID: 115896614}
+  - component: {fileID: 115896613}
   m_Layer: 0
   m_Name: Flowchart_01
   m_TagString: Untagged
@@ -3649,11 +3655,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 45.149418, y: 26.110504}
+  scrollPos: {x: 45.985764, y: 47.6259}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 281
-  zoom: 0.8200002
+  blockViewHeight: 424
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3663,7 +3669,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 115896600}
   selectedCommands:
-  - {fileID: 115896607}
+  - {fileID: 115896612}
   variables: []
   description: 
   stepPause: 0
@@ -3705,7 +3711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.872345
     y: 70
-    width: 125.60974
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3717,10 +3723,16 @@ MonoBehaviour:
   - {fileID: 115896604}
   - {fileID: 115896603}
   - {fileID: 115896606}
-  - {fileID: 115896608}
-  - {fileID: 115896605}
   - {fileID: 115896607}
   - {fileID: 115896602}
+  - {fileID: 115896608}
+  - {fileID: 115896605}
+  - {fileID: 115896609}
+  - {fileID: 115896612}
+  - {fileID: 115896611}
+  - {fileID: 115896610}
+  - {fileID: 115896614}
+  - {fileID: 115896613}
 --- !u!4 &115896601
 Transform:
   m_ObjectHideFlags: 0
@@ -3747,7 +3759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: '"Wh... Where am I?"'
+  storyText: '"Wh... Where am I?" {w=1}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3756,7 +3768,7 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
@@ -3863,9 +3875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
+  itemId: 9
   indentLevel: 0
-  storyText: 
+  storyText: '"H...Hos..pital? Why am... I-.."  {w=1}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3875,7 +3887,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 0
   waitForClick: 0
-  stopVoiceover: 0
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &115896606
@@ -3891,7 +3903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: '"Oh, you''re awake, sir!"'
+  storyText: '"Oh, you''re awake, sir!" {w=1}'
   description: 
   character: {fileID: 123213077}
   portrait: {fileID: 0}
@@ -3899,7 +3911,7 @@ MonoBehaviour:
   showAlways: 0
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
+  fadeWhenDone: 1
   waitForClick: 0
   stopVoiceover: 0
   waitForVO: 1
@@ -3919,9 +3931,87 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 4
   durationOLD: 0
 --- !u!114 &115896608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  storyText: '"This is the Der-sw--h Hospital." {w=1.5}'
+  description: 
+  character: {fileID: 123213077}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: '"You were found unconscious on a sidewalk near So--el Road." {w=1}'
+  description: 
+  character: {fileID: 123213077}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  storyText: '"He will arrive shortly." {w=1}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -3932,12 +4022,92 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 12
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 7
   durationOLD: 0
+--- !u!114 &115896612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  storyText: '"I''m going to call in Dr. Kanerva and he will be able to inform you
+    on the details." {w=2}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  storyText: "\"I\u2019ll place it here for you to look at in your own time, okay?\"
+    {w=1}"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  storyText: '"You also have a letter from a friend of yours." {w=0.5}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &117038325
 GameObject:
   m_ObjectHideFlags: 0
@@ -45418,7 +45588,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.92644507, z: 0, w: 0.37642995}
+  m_LocalRotation: {x: 0, y: 0.9833211, z: 0, w: 0.1818779}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -47396,6 +47566,11 @@ Prefab:
     - target: {fileID: 1274513976884298, guid: 645d5a3bf6381a04a98d91d046c542b6, type: 2}
       propertyPath: m_Name
       value: clock_v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82859185492577366, guid: 645d5a3bf6381a04a98d91d046c542b6,
+        type: 2}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 645d5a3bf6381a04a98d91d046c542b6, type: 2}
