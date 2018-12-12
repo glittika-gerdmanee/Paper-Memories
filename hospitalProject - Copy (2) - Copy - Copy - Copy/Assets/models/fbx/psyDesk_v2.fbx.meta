@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: a7c54323e06f0ad498af922e080b07bc
+timeCreated: 1526017765
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: pCube2
+    100002: //RootNode
+    100004: computer_geo
+    100006: keyboard_geo
+    100008: monitor_geo
+    100010: psyDesk
+    100012: pencilHolder_geo
+    100014: psyDesk_geo
+    100016: binPlaceholder
+    100018: coffeeCup_geo
+    100020: folder_geo_01
+    100022: folder_geo_02
+    100024: lampPlaceholder
+    100026: mouse_geo
+    100028: paper_geo_01
+    100030: paper_geo_02
+    100032: paper_geo_03
+    100034: cable_geo_01
+    100036: bin_geo
+    100038: bottom
+    100040: paperStacks
+    100042: pencil_geo
+    100044: pencil_geo1
+    100046: pencil_geo2
+    100048: pencil_geo3
+    400000: pCube2
+    400002: //RootNode
+    400004: computer_geo
+    400006: keyboard_geo
+    400008: monitor_geo
+    400010: psyDesk
+    400012: pencilHolder_geo
+    400014: psyDesk_geo
+    400016: binPlaceholder
+    400018: coffeeCup_geo
+    400020: folder_geo_01
+    400022: folder_geo_02
+    400024: lampPlaceholder
+    400026: mouse_geo
+    400028: paper_geo_01
+    400030: paper_geo_02
+    400032: paper_geo_03
+    400034: cable_geo_01
+    400036: bin_geo
+    400038: bottom
+    400040: paperStacks
+    400042: pencil_geo
+    400044: pencil_geo1
+    400046: pencil_geo2
+    400048: pencil_geo3
+    2000000: bottom
+    2100000: wood1Material
+    2100002: blinn1
+    2100004: wood_lambert
+    2100006: blackMetal_blinn
+    2100008: brownBlack_blinn
+    2100010: black_blinn
+    2100012: lambert1
+    2100014: white_lambert
+    2100016: keyboard_Texture
+    2100018: green_lambert
+    2100020: red_lam
+    2300000: pCube2
+    2300002: computer_geo
+    2300004: keyboard_geo
+    2300006: monitor_geo
+    2300008: pencilHolder_geo
+    2300010: psyDesk_geo
+    2300012: binPlaceholder
+    2300014: coffeeCup_geo
+    2300016: folder_geo_01
+    2300018: folder_geo_02
+    2300020: lampPlaceholder
+    2300022: mouse_geo
+    2300024: paper_geo_01
+    2300026: paper_geo_02
+    2300028: paper_geo_03
+    2300030: cable_geo_01
+    2300032: bin_geo
+    2300034: pencil_geo
+    2300036: pencil_geo1
+    2300038: pencil_geo2
+    2300040: pencil_geo3
+    3300000: pCube2
+    3300002: computer_geo
+    3300004: keyboard_geo
+    3300006: monitor_geo
+    3300008: pencilHolder_geo
+    3300010: psyDesk_geo
+    3300012: binPlaceholder
+    3300014: coffeeCup_geo
+    3300016: folder_geo_01
+    3300018: folder_geo_02
+    3300020: lampPlaceholder
+    3300022: mouse_geo
+    3300024: paper_geo_01
+    3300026: paper_geo_02
+    3300028: paper_geo_03
+    3300030: cable_geo_01
+    3300032: bin_geo
+    3300034: pencil_geo
+    3300036: pencil_geo1
+    3300038: pencil_geo2
+    3300040: pencil_geo3
+    4300000: pCube2
+    4300002: monitor_geo
+    4300004: keyboard_geo
+    4300006: computer_geo
+    4300008: psyDesk_geo
+    4300010: pencilHolder_geo
+    4300012: folder_geo_01
+    4300014: folder_geo_02
+    4300016: mouse_geo
+    4300018: coffeeCup_geo
+    4300020: paper_geo_01
+    4300022: paper_geo_02
+    4300024: paper_geo_03
+    4300026: lampPlaceholder
+    4300028: binPlaceholder
+    4300030: cable_geo_01
+    4300032: bin_geo
+    4300034: pencil_geo
+    4300036: pencil_geo1
+    4300038: pencil_geo2
+    4300040: pencil_geo3
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

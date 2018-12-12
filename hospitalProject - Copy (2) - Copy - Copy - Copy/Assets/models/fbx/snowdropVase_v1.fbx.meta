@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 64d8d5c403a3b7e4cb6a21c072da30d9
+timeCreated: 1538676041
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: sd_bud_geo
+    100002: sd_bud_geo 1
+    100004: sd_bud_geo 2
+    100006: sd_bud_geo 3
+    100008: sd_bud_geo 4
+    100010: sd_bud_geo 5
+    100012: sd_leaf01_geo
+    100014: sd_leaf02_geo
+    100016: sd_leaf03_geo
+    100018: sd_petal01_geo
+    100020: sd_petal01_geo 1
+    100022: sd_petal01_geo 2
+    100024: sd_petal01_geo 3
+    100026: sd_petal01_geo 4
+    100028: sd_petal01_geo 5
+    100030: sd_petal02_geo
+    100032: sd_petal02_geo 1
+    100034: sd_petal02_geo 2
+    100036: sd_petal02_geo 3
+    100038: sd_petal02_geo 4
+    100040: sd_petal02_geo 5
+    100042: sd_petal03_geo
+    100044: sd_petal03_geo 1
+    100046: sd_petal03_geo 2
+    100048: sd_petal03_geo 3
+    100050: sd_petal03_geo 4
+    100052: sd_petal03_geo 5
+    100054: sd_petal_04
+    100056: sd_petal_04 1
+    100058: sd_petal_04 2
+    100060: sd_petal_04 3
+    100062: sd_petal_04 4
+    100064: sd_petal_04 5
+    100066: sd_steam_geo
+    100068: sd_steam_geo 1
+    100070: sd_steam_geo 2
+    100072: sd_steam_geo 3
+    100074: sd_steam_geo 4
+    100076: sd_steam_geo 5
+    100078: snowdrop_full_geo
+    100080: snowdrop_full_geo1
+    100082: snowdrop_full_geo2
+    100084: snowdrop_full_geo3
+    100086: snowdrop_full_geo4
+    100088: snowdrop_full_geo5
+    100090: snowdrop_geo
+    100092: snowdrop_geo 1
+    100094: snowdrop_geo 2
+    100096: snowdrop_geo 3
+    100098: snowdrop_geo 4
+    100100: snowdrop_geo 5
+    100102: snowdropGrouped_geo
+    100104: //RootNode
+    100106: transform1
+    100108: transform10
+    100110: transform11
+    100112: transform12
+    100114: transform13
+    100116: transform14
+    100118: transform15
+    100120: transform16
+    100122: transform17
+    100124: transform18
+    100126: transform19
+    100128: transform2
+    100130: transform20
+    100132: transform21
+    100134: transform22
+    100136: transform23
+    100138: transform24
+    100140: transform25
+    100142: transform26
+    100144: transform27
+    100146: transform28
+    100148: transform29
+    100150: transform3
+    100152: transform30
+    100154: transform31
+    100156: transform32
+    100158: transform33
+    100160: transform34
+    100162: transform35
+    100164: transform36
+    100166: transform37
+    100168: transform38
+    100170: transform39
+    100172: transform4
+    100174: transform40
+    100176: transform5
+    100178: transform6
+    100180: transform7
+    100182: transform8
+    100184: transform9
+    100186: vaseBase_geo
+    400000: sd_bud_geo
+    400002: sd_bud_geo 1
+    400004: sd_bud_geo 2
+    400006: sd_bud_geo 3
+    400008: sd_bud_geo 4
+    400010: sd_bud_geo 5
+    400012: sd_leaf01_geo
+    400014: sd_leaf02_geo
+    400016: sd_leaf03_geo
+    400018: sd_petal01_geo
+    400020: sd_petal01_geo 1
+    400022: sd_petal01_geo 2
+    400024: sd_petal01_geo 3
+    400026: sd_petal01_geo 4
+    400028: sd_petal01_geo 5
+    400030: sd_petal02_geo
+    400032: sd_petal02_geo 1
+    400034: sd_petal02_geo 2
+    400036: sd_petal02_geo 3
+    400038: sd_petal02_geo 4
+    400040: sd_petal02_geo 5
+    400042: sd_petal03_geo
+    400044: sd_petal03_geo 1
+    400046: sd_petal03_geo 2
+    400048: sd_petal03_geo 3
+    400050: sd_petal03_geo 4
+    400052: sd_petal03_geo 5
+    400054: sd_petal_04
+    400056: sd_petal_04 1
+    400058: sd_petal_04 2
+    400060: sd_petal_04 3
+    400062: sd_petal_04 4
+    400064: sd_petal_04 5
+    400066: sd_steam_geo
+    400068: sd_steam_geo 1
+    400070: sd_steam_geo 2
+    400072: sd_steam_geo 3
+    400074: sd_steam_geo 4
+    400076: sd_steam_geo 5
+    400078: snowdrop_full_geo
+    400080: snowdrop_full_geo1
+    400082: snowdrop_full_geo2
+    400084: snowdrop_full_geo3
+    400086: snowdrop_full_geo4
+    400088: snowdrop_full_geo5
+    400090: snowdrop_geo
+    400092: snowdrop_geo 1
+    400094: snowdrop_geo 2
+    400096: snowdrop_geo 3
+    400098: snowdrop_geo 4
+    400100: snowdrop_geo 5
+    400102: snowdropGrouped_geo
+    400104: //RootNode
+    400106: transform1
+    400108: transform10
+    400110: transform11
+    400112: transform12
+    400114: transform13
+    400116: transform14
+    400118: transform15
+    400120: transform16
+    400122: transform17
+    400124: transform18
+    400126: transform19
+    400128: transform2
+    400130: transform20
+    400132: transform21
+    400134: transform22
+    400136: transform23
+    400138: transform24
+    400140: transform25
+    400142: transform26
+    400144: transform27
+    400146: transform28
+    400148: transform29
+    400150: transform3
+    400152: transform30
+    400154: transform31
+    400156: transform32
+    400158: transform33
+    400160: transform34
+    400162: transform35
+    400164: transform36
+    400166: transform37
+    400168: transform38
+    400170: transform39
+    400172: transform4
+    400174: transform40
+    400176: transform5
+    400178: transform6
+    400180: transform7
+    400182: transform8
+    400184: transform9
+    400186: vaseBase_geo
+    2100000: green_lambert
+    2100002: white_lambert
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: snowdropVase_geo
+    4300002: snowdropVase_geo1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

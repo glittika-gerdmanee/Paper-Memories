@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hospitalProject - Copy (2)", "hospitalProject - Copy (2).csproj", "{FFBDC9FF-0350-A89F-DE12-4AE143B80D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hospitalProject - Copy (2).Editor", "hospitalProject - Copy (2).Editor.csproj", "{00EAC56B-AC55-A837-AD81-3C62892415EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFBDC9FF-0350-A89F-DE12-4AE143B80D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBDC9FF-0350-A89F-DE12-4AE143B80D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBDC9FF-0350-A89F-DE12-4AE143B80D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBDC9FF-0350-A89F-DE12-4AE143B80D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EAC56B-AC55-A837-AD81-3C62892415EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EAC56B-AC55-A837-AD81-3C62892415EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EAC56B-AC55-A837-AD81-3C62892415EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EAC56B-AC55-A837-AD81-3C62892415EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

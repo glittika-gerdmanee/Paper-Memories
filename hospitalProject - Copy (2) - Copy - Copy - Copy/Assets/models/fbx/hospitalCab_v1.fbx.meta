@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 0ef87a92908ed934a9276ea992f26648
+timeCreated: 1530764588
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: glass01_geo
+    100002: glass02_geo
+    100004: handle01_geo
+    100006: handle02_geo
+    100008: handle03_geo
+    100010: handle04_geo
+    100012: hospitalCab_geo
+    100014: //RootNode
+    100016: keyhole01_geo
+    100018: keyhole02_geo
+    100020: shelf01_geo
+    100022: shelf02_geo
+    100024: shelf03_geo
+    400000: glass01_geo
+    400002: glass02_geo
+    400004: handle01_geo
+    400006: handle02_geo
+    400008: handle03_geo
+    400010: handle04_geo
+    400012: hospitalCab_geo
+    400014: //RootNode
+    400016: keyhole01_geo
+    400018: keyhole02_geo
+    400020: shelf01_geo
+    400022: shelf02_geo
+    400024: shelf03_geo
+    2100000: white_lambert
+    2100002: greyMetal_blinn
+    2100004: black_lambert
+    2100006: glass_blinn
+    2100008: lambert1
+    2300000: glass01_geo
+    2300002: glass02_geo
+    2300004: handle01_geo
+    2300006: handle02_geo
+    2300008: handle03_geo
+    2300010: handle04_geo
+    2300012: hospitalCab_geo
+    2300014: keyhole01_geo
+    2300016: keyhole02_geo
+    2300018: shelf01_geo
+    2300020: shelf02_geo
+    2300022: shelf03_geo
+    3300000: glass01_geo
+    3300002: glass02_geo
+    3300004: handle01_geo
+    3300006: handle02_geo
+    3300008: handle03_geo
+    3300010: handle04_geo
+    3300012: hospitalCab_geo
+    3300014: keyhole01_geo
+    3300016: keyhole02_geo
+    3300018: shelf01_geo
+    3300020: shelf02_geo
+    3300022: shelf03_geo
+    4300000: hospitalCab_geo
+    4300002: handle01_geo
+    4300004: handle02_geo
+    4300006: handle03_geo
+    4300008: handle04_geo
+    4300010: keyhole01_geo
+    4300012: keyhole02_geo
+    4300014: glass01_geo
+    4300016: glass02_geo
+    4300018: shelf01_geo
+    4300020: shelf02_geo
+    4300022: shelf03_geo
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

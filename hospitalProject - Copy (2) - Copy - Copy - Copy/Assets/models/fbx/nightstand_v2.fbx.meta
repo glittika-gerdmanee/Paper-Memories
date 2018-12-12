@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 852d693806c18c04c8b86ee6b2f7a300
+timeCreated: 1525998944
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bedsideGrouped
+    100002: COMBINED_hospital_ShelfHandle_geo
+    100004: COMBINED_wheelAssemblies_geo
+    100006: hospital_Cbnt_geo
+    100008: hospital_Shelf_geo_01
+    100010: hospital_Shelf_geo_02
+    100012: hospital_Shelf_geo_03
+    100014: hospital_Shelf_geo_04
+    100016: hospital_ShelfHandle_geo_01
+    100018: hospital_ShelfHandle_geo_02
+    100020: hospital_ShelfHandle_geo_03
+    100022: hospital_ShelfHandle_geo_04
+    100024: hospitalCabinet
+    100026: hospitalShelf_01
+    100028: hospitalShelf_02
+    100030: hospitalShelf_03
+    100032: hospitalShelf_04
+    100034: //RootNode
+    100036: bedside_geo
+    100038: wheelAssemblies_geo
+    400000: bedsideGrouped
+    400002: COMBINED_hospital_ShelfHandle_geo
+    400004: COMBINED_wheelAssemblies_geo
+    400006: hospital_Cbnt_geo
+    400008: hospital_Shelf_geo_01
+    400010: hospital_Shelf_geo_02
+    400012: hospital_Shelf_geo_03
+    400014: hospital_Shelf_geo_04
+    400016: hospital_ShelfHandle_geo_01
+    400018: hospital_ShelfHandle_geo_02
+    400020: hospital_ShelfHandle_geo_03
+    400022: hospital_ShelfHandle_geo_04
+    400024: hospitalCabinet
+    400026: hospitalShelf_01
+    400028: hospitalShelf_02
+    400030: hospitalShelf_03
+    400032: hospitalShelf_04
+    400034: //RootNode
+    400036: bedside_geo
+    400038: wheelAssemblies_geo
+    2100000: lambert1
+    2100002: shelves_Lambert
+    2100004: handles_Blinn
+    2100006: wheels_Blinn
+    2100008: base_Lambert
+    2300000: COMBINED_hospital_ShelfHandle_geo
+    2300002: COMBINED_wheelAssemblies_geo
+    2300004: hospital_Cbnt_geo
+    2300006: hospital_Shelf_geo_01
+    2300008: hospital_Shelf_geo_02
+    2300010: hospital_Shelf_geo_03
+    2300012: hospital_Shelf_geo_04
+    2300014: hospital_ShelfHandle_geo_01
+    2300016: hospital_ShelfHandle_geo_02
+    2300018: hospital_ShelfHandle_geo_03
+    2300020: hospital_ShelfHandle_geo_04
+    2300022: bedside_geo
+    2300024: wheelAssemblies_geo
+    3300000: COMBINED_hospital_ShelfHandle_geo
+    3300002: COMBINED_wheelAssemblies_geo
+    3300004: hospital_Cbnt_geo
+    3300006: hospital_Shelf_geo_01
+    3300008: hospital_Shelf_geo_02
+    3300010: hospital_Shelf_geo_03
+    3300012: hospital_Shelf_geo_04
+    3300014: hospital_ShelfHandle_geo_01
+    3300016: hospital_ShelfHandle_geo_02
+    3300018: hospital_ShelfHandle_geo_03
+    3300020: hospital_ShelfHandle_geo_04
+    3300022: bedside_geo
+    3300024: wheelAssemblies_geo
+    4300000: hospital_Cbnt_geo
+    4300002: hospital_Shelf_geo_01
+    4300004: hospital_ShelfHandle_geo_01
+    4300006: hospital_Shelf_geo_02
+    4300008: hospital_ShelfHandle_geo_02
+    4300010: hospital_Shelf_geo_03
+    4300012: hospital_ShelfHandle_geo_03
+    4300014: hospital_Shelf_geo_04
+    4300016: hospital_ShelfHandle_geo_04
+    4300018: COMBINED_hospital_ShelfHandle_geo
+    4300020: COMBINED_wheelAssemblies_geo
+    4300022: wheelAssemblies_geo
+    4300024: bedside_geo
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
