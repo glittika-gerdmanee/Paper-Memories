@@ -3635,6 +3635,11 @@ GameObject:
   - component: {fileID: 115896610}
   - component: {fileID: 115896614}
   - component: {fileID: 115896613}
+  - component: {fileID: 115896616}
+  - component: {fileID: 115896617}
+  - component: {fileID: 115896615}
+  - component: {fileID: 115896618}
+  - component: {fileID: 115896619}
   m_Layer: 0
   m_Name: Flowchart_01
   m_TagString: Untagged
@@ -3655,7 +3660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 45.985764, y: 47.6259}
+  scrollPos: {x: -44.425194, y: 43.51632}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 387
@@ -3666,8 +3671,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 115896616}
+  selectedCommands:
+  - {fileID: 115896619}
   variables: []
   description: 
   stepPause: 0
@@ -3707,8 +3714,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 62.13262
-    y: 70
+    x: 90.89968
+    y: 79.58905
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3731,6 +3738,8 @@ MonoBehaviour:
   - {fileID: 115896610}
   - {fileID: 115896614}
   - {fileID: 115896613}
+  - {fileID: 115896618}
+  - {fileID: 115896617}
 --- !u!4 &115896601
 Transform:
   m_ObjectHideFlags: 0
@@ -4102,6 +4111,121 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896615
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  storyText: '"I''m glad to see you''re awake." {w=1}'
+  description: 
+  character: {fileID: 275719227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896616
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 266.34296
+    y: 79.77129
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 16
+  blockName: The Doctor
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 115896615}
+  - {fileID: 115896619}
+--- !u!114 &115896617
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 17
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 115896616}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &115896618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 27
+  durationOLD: 0
+--- !u!114 &115896619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  storyText: '"I''m Dr. Kanerva." {w=1}'
+  description: 
+  character: {fileID: 275719227}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
   waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
@@ -5710,7 +5834,7 @@ Transform:
   m_LocalScale: {x: 12, y: 6, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 14
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &190687189
 MeshRenderer:
@@ -8321,6 +8445,54 @@ BoxCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
   m_PrefabInternal: {fileID: 274805916}
+--- !u!1 &275719225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 275719226}
+  - component: {fileID: 275719227}
+  m_Layer: 0
+  m_Name: Dr.Kanerva_Char
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &275719226
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 275719225}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1020831287}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &275719227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 275719225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Dr. Kanerva
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: Doctor.
 --- !u!1001 &280823513
 Prefab:
   m_ObjectHideFlags: 0
@@ -11349,7 +11521,7 @@ Transform:
   m_LocalScale: {x: 9.300004, y: 4, z: 0.4000002}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 11
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &402979824
 MeshRenderer:
@@ -23144,6 +23316,10 @@ PlayableDirector:
     value: {fileID: 1637082993}
   - key: {fileID: 114156592814562452, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
     value: {fileID: 199030485}
+  - key: {fileID: 0}
+    value: {fileID: 677406275}
+  - key: {fileID: 114491421896024620, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+    value: {fileID: 677406275}
   m_ExposedReferences:
     m_References:
     - 494793d01d104ee4d9e4ffd35628be58: {fileID: 877600949}
@@ -24151,7 +24327,7 @@ Transform:
   m_LocalScale: {x: 3.2000117, y: 4, z: 0.4000002}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 19
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1011361150
 MeshRenderer:
@@ -24601,6 +24777,7 @@ Transform:
   - {fileID: 1775022601}
   - {fileID: 115896601}
   - {fileID: 123213078}
+  - {fileID: 275719226}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28690,7 +28867,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_LocalRotation.y
@@ -28698,7 +28875,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28710,7 +28887,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -87.57001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_Name
@@ -28731,6 +28908,10 @@ Prefab:
     - target: {fileID: 100006, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
+      propertyPath: m_Avatar
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
@@ -45705,7 +45886,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.9833211, z: 0, w: 0.1818779}
+  m_LocalRotation: {x: 0, y: 0.9512035, z: 0, w: 0.30856386}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
