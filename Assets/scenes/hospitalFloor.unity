@@ -4070,7 +4070,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 6.5
+    floatVal: 7
   durationOLD: 0
 --- !u!114 &115896612
 MonoBehaviour:
@@ -47035,7 +47035,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.9139193, z: 0, w: 0.40589598}
+  m_LocalRotation: {x: 0, y: 0.91415477, z: 0, w: 0.40536535}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
