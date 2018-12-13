@@ -3694,11 +3694,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -44.425194, y: 43.51632}
+  scrollPos: {x: 67.46773, y: -14.795433}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 305
-  zoom: 0.73000026
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3708,7 +3708,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 115896600}
   selectedCommands:
-  - {fileID: 115896607}
+  - {fileID: 115896618}
   variables: []
   description: 
   stepPause: 0
@@ -3748,8 +3748,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 90.89968
-    y: 79.58905
+    x: 92.328255
+    y: 82.44619
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3981,7 +3981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: '"Oh, you''re awake, sir! I''m Nurse Caroline." {w=1}'
+  storyText: '"Oh, you''re awake, sir! I''m Nurse Caroline." {w=2}'
   description: 
   character: {fileID: 123213077}
   portrait: {fileID: 0}
@@ -4009,7 +4009,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 4
   durationOLD: 0
 --- !u!114 &115896608
 MonoBehaviour:
@@ -4024,7 +4024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: '"This is the Der-sw--h Hospital." {w=1.5}'
+  storyText: '"This is the Der-sw--h Hospital." {w=1}'
   description: 
   character: {fileID: 1352587672}
   portrait: {fileID: 0}
@@ -4280,7 +4280,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 25
+    floatVal: 26
   durationOLD: 0
 --- !u!114 &115896619
 MonoBehaviour:
@@ -24312,6 +24312,8 @@ PlayableDirector:
     value: {fileID: 677406275}
   - key: {fileID: 0}
     value: {fileID: 677406275}
+  - key: {fileID: 114234693912094760, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 494793d01d104ee4d9e4ffd35628be58: {fileID: 877600949}
@@ -46927,7 +46929,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.00000024057073}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
