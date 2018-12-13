@@ -3646,6 +3646,7 @@ GameObject:
   - component: {fileID: 115896623}
   - component: {fileID: 115896624}
   - component: {fileID: 115896625}
+  - component: {fileID: 115896626}
   m_Layer: 0
   m_Name: Flowchart_01
   m_TagString: Untagged
@@ -3678,9 +3679,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 115896616}
+  - {fileID: 115896600}
   selectedCommands:
-  - {fileID: 115896623}
+  - {fileID: 115896613}
   variables: []
   description: 
   stepPause: 0
@@ -3916,7 +3917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: '"Oh, you''re awake, sir! I''m Nurse Fiore" {w=1}'
+  storyText: '"Oh, you''re awake, sir! I''m Nurse Fiore" {w=2}'
   description: 
   character: {fileID: 123213077}
   portrait: {fileID: 0}
@@ -3944,7 +3945,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 4
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &115896608
 MonoBehaviour:
@@ -4082,7 +4083,7 @@ MonoBehaviour:
   itemId: 15
   indentLevel: 0
   storyText: "\"I\u2019ll place it here for you to look at in your own time, okay?\"
-    {w=2}"
+    {w=1}"
   description: 
   character: {fileID: 1352587672}
   portrait: {fileID: 0}
@@ -4146,7 +4147,7 @@ MonoBehaviour:
   waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1775022606}
 --- !u!114 &115896616
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4177,8 +4178,9 @@ MonoBehaviour:
   - {fileID: 115896623}
   - {fileID: 115896625}
   - {fileID: 115896619}
-  - {fileID: 115896624}
+  - {fileID: 115896626}
   - {fileID: 115896622}
+  - {fileID: 115896624}
 --- !u!114 &115896617
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4285,7 +4287,7 @@ MonoBehaviour:
   waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1775022606}
 --- !u!114 &115896622
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4325,7 +4327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: '"Now, how are you feeling?" {w=1}'
+  storyText: '"Now, how are you feeling?" {w=2}'
   description: 
   character: {fileID: 275719227}
   portrait: {fileID: 0}
@@ -4377,9 +4379,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  storyText: '"I, do not know." {w=1}'
+  storyText: '"I, do not know." {w=2}'
   description: 
   character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &115896626
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115896597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  storyText: '"This is so I can get a clearer idea on the situation at hand." {w=1}'
+  description: 
+  character: {fileID: 275719227}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -5994,7 +6022,7 @@ Transform:
   m_LocalScale: {x: 12, y: 6, z: 0.19999999}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &190687189
 MeshRenderer:
@@ -8647,7 +8675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dr. Kanerva
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.8308824, g: 0.81166923, b: 0.13440742, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -11681,7 +11709,7 @@ Transform:
   m_LocalScale: {x: 9.300004, y: 4, z: 0.4000002}
   m_Children: []
   m_Father: {fileID: 101522789}
-  m_RootOrder: 29
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &402979824
 MeshRenderer:
@@ -32586,7 +32614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Nurse Fiore
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.9107147, g: 0.5149762, b: 0.9338235, a: 1}
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
@@ -46095,7 +46123,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.9670551, z: 0, w: 0.2545672}
+  m_LocalRotation: {x: 0, y: 0.95441836, z: 0, w: 0.29847214}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
