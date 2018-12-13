@@ -3689,7 +3689,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 115896616}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 115896624}
   variables: []
   description: 
   stepPause: 0
@@ -4277,7 +4278,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &115896621
 MonoBehaviour:
@@ -4370,7 +4371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: '"i regret to inform that, the information you have provided does not
+  storyText: '"I regret to inform that, the information you have provided does not
     match up with the indentification details we have on you." {w=1}'
   description: 
   character: {fileID: 275719227}
@@ -46357,7 +46358,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.913942, z: 0, w: 0.40584493}
+  m_LocalRotation: {x: 0, y: 0.91415477, z: 0, w: 0.40536535}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
