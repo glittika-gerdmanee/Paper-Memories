@@ -3710,8 +3710,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 115896616}
-  selectedCommands: []
+  - {fileID: 115896600}
+  selectedCommands:
+  - {fileID: 115896615}
   variables: []
   description: 
   stepPause: 0
@@ -4165,7 +4166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  targetFlowchart: {fileID: 115896598}
+  targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 115896616}
   startLabel:
     stringRef: {fileID: 0}
@@ -4185,8 +4186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 321.05554
-    y: 78.342285
+    x: 324.3802
+    y: 81.66696
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4779,7 +4780,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &115896636
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 115896597}
@@ -5313,7 +5314,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   durationOLD: 0
 --- !u!1 &117038325
 GameObject:
