@@ -3576,6 +3576,7 @@ MonoBehaviour:
   - {fileID: 114311761949930570}
   - {fileID: 114620451294898542}
   - {fileID: 114737212375284374}
+  - {fileID: 114234693912094760}
   m_Clips: []
 --- !u!114 &114192882706659184
 MonoBehaviour:
@@ -3591,6 +3592,82 @@ MonoBehaviour:
   m_Clip: {fileID: 8300000, guid: 591f0a35a900c7f4990dad8e91789209, type: 3}
   m_Loop: 0
   m_bufferingTime: 0.1
+--- !u!114 &114234693912094760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2113462093, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Audio Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114158957799275944}
+  m_Children: []
+  m_Clips:
+  - m_Start: 127.88333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: 114520960619545856}
+    m_UnderlyingAsset: {fileID: 8300000, guid: 591f0a35a900c7f4990dad8e91789209, type: 3}
+    m_Duration: 3.2307916666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 114234693912094760}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: bass-impact-edited
+    m_Version: 1
 --- !u!114 &114282545254826714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3924,6 +4001,20 @@ MonoBehaviour:
   - {fileID: 114618980468799206}
   - {fileID: 114282545254826714}
   m_Clips: []
+--- !u!114 &114520960619545856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1977359656, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 591f0a35a900c7f4990dad8e91789209, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
 --- !u!114 &114553614766645404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4494,6 +4585,20 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: squeaky-open-door
     m_Version: 1
+--- !u!114 &114745442515326250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1977359656, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 591f0a35a900c7f4990dad8e91789209, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
 --- !u!114 &114758053983840608
 MonoBehaviour:
   m_ObjectHideFlags: 1
