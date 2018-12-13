@@ -11,32 +11,29 @@ MonoBehaviour:
   m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInFrames: 0
-  timeAreaShownRange: {x: -2.2034416, y: 268.59955}
+  timeInFrames: 1
+  timeAreaShownRange: {x: -2.739791, y: 333.98053}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
   playRangeEnabled: 0
   timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
-  windowTime: 97.23332977294922
+  windowTime: 0
   m_Keys:
+  - {fileID: 114301825303410372, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114649955717529606, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+  - {fileID: 114354874381225986, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+  - {fileID: 114455986076633958, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+  - {fileID: 114618980468799206, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+  - {fileID: 114282545254826714, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+  - {fileID: 114158957799275944, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114311761949930570, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114620451294898542, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114618980468799206, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114066136154786010, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114354874381225986, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114158957799275944, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114455986076633958, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114301825303410372, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114737212375284374, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114807324920327214, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114282545254826714, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
+  - {fileID: 114234693912094760, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114338746904661398, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114729984358189242, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   - {fileID: 114156592814562452, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114758053983840608, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
-  - {fileID: 114234693912094760, guid: 85821a3112b89284ab0c1ddab88a1b82, type: 2}
   m_Vals:
   - collapsed: 0
     showInlineCurves: 0
@@ -47,13 +44,13 @@ MonoBehaviour:
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 101
-  - collapsed: 0
+  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 0
+  - collapsed: 1
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 1
@@ -65,27 +62,18 @@ MonoBehaviour:
   - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 0
+  - collapsed: 1
     showInlineCurves: 0
-    inlineAnimationCurveHeight: 60
-  - collapsed: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 0
+  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
-  - collapsed: 0
+  - collapsed: 1
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100

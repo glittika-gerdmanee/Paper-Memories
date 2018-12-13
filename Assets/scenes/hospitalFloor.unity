@@ -3752,7 +3752,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 92.328255
-    y: 84.10853
+    y: 87.433205
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4070,7 +4070,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 6
+    floatVal: 6.5
   durationOLD: 0
 --- !u!114 &115896612
 MonoBehaviour:
@@ -7147,6 +7147,7 @@ GameObject:
   - component: {fileID: 199030488}
   - component: {fileID: 199030487}
   - component: {fileID: 199030490}
+  - component: {fileID: 199030491}
   m_Layer: 0
   m_Name: doctorPlaceholder
   m_TagString: Untagged
@@ -7238,6 +7239,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &199030491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199030485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f10096dffcd1143b681bedc2293297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdown: 230
 --- !u!1 &202034481
 GameObject:
   m_ObjectHideFlags: 0
@@ -42581,7 +42594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTextObject: {fileID: 1906015796}
   punchObject: {fileID: 1133256339}
-  writingSpeed: 60
+  writingSpeed: 70
   punctuationPause: 0.25
   hiddenTextColor: {r: 1, g: 1, b: 1, a: 0}
   writeWholeWords: 0
@@ -42599,7 +42612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 0.25
+  fadeDuration: 0.2
   continueButton: {fileID: 327813244}
   dialogCanvas: {fileID: 1775022610}
   nameText: {fileID: 8785699}
@@ -47022,7 +47035,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.91415477, z: 0, w: 0.40536535}
+  m_LocalRotation: {x: 0, y: 0.9139193, z: 0, w: 0.40589598}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
