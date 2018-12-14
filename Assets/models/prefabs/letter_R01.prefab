@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationTime: 1
-  colourThreshold: 1.5
+  colourThreshold: 1
 --- !u!114 &114449531924500774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDescription:
+  - 
   - It's a letter from... Autumn?
   dialogueBox: {fileID: 0}
   customText: {fileID: 0}

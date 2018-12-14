@@ -21,6 +21,9 @@ public class examineObject : MonoBehaviour
 
     void Start()
     {
+        displayText = false;
+        nearTrigger = false;
+        imgOn = false;
 
         player = FindObjectOfType<CharacterController>();
         highlight = GetComponent<highlightObject>();
@@ -73,37 +76,35 @@ public class examineObject : MonoBehaviour
         {
             Debug.Log("E key is pressed");
             customText.text = itemDescription[textPos];
+            textToggle();
             textboxToggle();
+            Debug.Log("Image is here!");
             imageToggle();
-            customText.enabled = true;
 
             if (highlight)
             {
                 highlight.StopHighlight(); //disables from gameObject being highlight while examined
             }
-
-            if (!displayText)
-            {
-                customText.enabled = false;
-            }
-
-            if (imgOn)
-            {
-                imageToggle();
-            }
-            else
-            {
-                imgOn = false;
-            }
-
         }
     }
 
+    //toggles whether image displays or not
     public void imageToggle()
     {
+        if (imgOn == true)
+        {
         customImage.enabled = !customImage.enabled;
+        }
     }
 
+    //toggles whether text displays or not
+    public void textToggle()
+    {
+        if (displayText == true)
+        {
+            customText.enabled = !customText.enabled;
+        }
+    }
     
     //toggles player movement and dialogue box
     public void textboxToggle()
