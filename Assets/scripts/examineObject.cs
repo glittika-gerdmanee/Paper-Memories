@@ -8,8 +8,8 @@ public class examineObject : MonoBehaviour
 
     [TextArea(3, 3)]
     public string[] itemDescription = new string[1]; //string input for object
-    public GameObject dialogueBox; //panel that holds the text on screen
-    public Text customText = null; //text pop up if object is examined
+    public GameObject dialogueBox = null; //panel that holds the text on screen
+    public Text customText; //text pop up if object is examined
     public int textPos = 0; // current position in string array
     public Image customImage; //image pop up if necessary
 
@@ -21,9 +21,10 @@ public class examineObject : MonoBehaviour
 
     void Start()
     {
+        customText.enabled = false;
         displayText = false;
         nearTrigger = false;
-        imgOn = false;
+        imgOn = true;
 
         player = FindObjectOfType<CharacterController>();
         highlight = GetComponent<highlightObject>();
@@ -100,10 +101,8 @@ public class examineObject : MonoBehaviour
     //toggles whether text displays or not
     public void textToggle()
     {
-        if (displayText == true)
-        {
-            customText.enabled = !customText.enabled;
-        }
+        customText.enabled = !customText.enabled;
+
     }
     
     //toggles player movement and dialogue box
