@@ -955,8 +955,10 @@
     <Compile Include="Assets\scripts\destroyTimer.cs" />
     <Compile Include="Assets\scripts\Dialogue.cs" />
     <Compile Include="Assets\scripts\dialogueLines.cs" />
+    <Compile Include="Assets\scripts\examineObject.cs" />
     <Compile Include="Assets\scripts\highlightController.cs" />
     <Compile Include="Assets\scripts\highlightObject.cs" />
+    <Compile Include="Assets\scripts\interactWith.cs" />
     <Compile Include="Assets\scripts\textPopUp.cs" />
   </ItemGroup>
   <ItemGroup>
