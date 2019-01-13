@@ -3711,7 +3711,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 115896600}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 115896618}
   variables: []
   description: Opening Scene
   stepPause: 0
@@ -24624,7 +24625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &955922697
 Animator:
   serializedVersion: 3
@@ -26165,7 +26166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1020831287
 Transform:
   m_ObjectHideFlags: 0
@@ -37729,7 +37730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeline: {fileID: 0}
   player: {fileID: 1163107415}
-  countdown: 30
+  gameObject: {fileID: 0}
+  countdown: 2
 --- !u!1 &1532517185
 GameObject:
   m_ObjectHideFlags: 0
@@ -47839,7 +47841,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.8780846, z: 0, w: 0.4785054}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -52038,6 +52040,10 @@ Prefab:
     - target: {fileID: 400000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64c0c85716482fb4e91558214758b822, type: 3}
