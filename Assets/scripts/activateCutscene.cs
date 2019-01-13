@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using Fungus;
 
 public class activateCutscene : MonoBehaviour {
 

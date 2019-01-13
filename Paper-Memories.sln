@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paper-Memories", "Paper-Memories.csproj", "{F82EE042-49B4-D4FE-910D-75EB579D57BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paper-Memories.Editor", "Paper-Memories.Editor.csproj", "{ADA6EF7D-3CCD-745B-54E6-BABBAF63D6A4}"

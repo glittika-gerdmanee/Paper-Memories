@@ -1,10 +1,11 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\imported\Fungus\Scripts\Components\DialogInput.cs">
+﻿<Properties StartupItem="Paper-Memories.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\cutToCamera.cs">
     <Files>
       <File FileName="Assets\scripts\destroyTimer.cs" Line="1" Column="1" />
       <File FileName="Assets\imported\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets\imported\Fungus\Scripts\Components\DialogInput.cs" Line="41" Column="42" />
+      <File FileName="Assets\scripts\cutToCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
