@@ -3482,7 +3482,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114158957799275944}
   m_Children: []
   m_Clips:
-  - m_Start: 128.93333333333334
+  - m_Start: 126.56666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 114520960619545856}
     m_UnderlyingAsset: {fileID: 8300000, guid: 591f0a35a900c7f4990dad8e91789209, type: 3}
@@ -3964,11 +3964,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 192.3
+    m_PostExtrapolationTime: 177.23333333333335
     m_PreExtrapolationTime: 2.033333333333333
     m_DisplayName: fadeInBlack
     m_Version: 1
-  - m_Start: 197.83333333333334
+  - m_Start: 182.76666666666668
     m_ClipIn: 0
     m_Asset: {fileID: 114750670705011360}
     m_UnderlyingAsset: {fileID: 7400000, guid: 41b07fb5d80d275438ea2ce9cc65b444, type: 2}
@@ -4026,7 +4026,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: fadeOutBlack
     m_Version: 1
-  - m_Start: 201.66666666666669
+  - m_Start: 186.60000000000002
     m_ClipIn: 0
     m_Asset: {fileID: 114855516809033210}
     m_UnderlyingAsset: {fileID: 7400000, guid: 32c9f749e570e0446b8469ce1fc3ea19, type: 2}
@@ -4195,7 +4195,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114393315553373800}
     m_UnderlyingAsset: {fileID: 114393315553373800}
-    m_Duration: 201.25
+    m_Duration: 185.9
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114649955717529606}
     m_EaseInDuration: 0
