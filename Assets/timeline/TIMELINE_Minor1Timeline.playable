@@ -1097,7 +1097,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CS_vcam01
+    m_DisplayName: CS1_vcam01
     m_Version: 1
   - m_Start: 7.15
     m_ClipIn: 0
@@ -1155,7 +1155,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CS_vcam02
+    m_DisplayName: CS1_vcam02
     m_Version: 1
   - m_Start: 11.866666666666667
     m_ClipIn: 0
@@ -1213,7 +1213,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CS_vcam01
+    m_DisplayName: CS1_vcam01
     m_Version: 1
   - m_Start: 16.266666666666666
     m_ClipIn: 0
@@ -1271,7 +1271,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: CS_vcam02
+    m_DisplayName: CS1_vcam02
     m_Version: 1
 --- !u!114 &114815733774106854
 MonoBehaviour:
