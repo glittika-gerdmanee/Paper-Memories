@@ -31759,6 +31759,7 @@ GameObject:
   - component: {fileID: 1202858750}
   - component: {fileID: 1202858749}
   - component: {fileID: 1202858748}
+  - component: {fileID: 1202858759}
   m_Layer: 0
   m_Name: Flowchart_03
   m_TagString: Untagged
@@ -31793,7 +31794,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1202858738}
   selectedCommands:
-  - {fileID: 1202858745}
+  - {fileID: 1202858759}
   variables: []
   description: 'Therapy Session #1'
   stepPause: 0
@@ -33274,6 +33275,7 @@ MonoBehaviour:
   - {fileID: 1202858750}
   - {fileID: 1202858749}
   - {fileID: 1202858748}
+  - {fileID: 1202858759}
 --- !u!114 &1202858739
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -33780,6 +33782,32 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 1
+--- !u!114 &1202858759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202858682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  indentLevel: 0
+  storyText: '"Take care." {w=1}'
+  description: 
+  character: {fileID: 1147358342}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 0
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1207342676
 GameObject:
   m_ObjectHideFlags: 0
@@ -51316,7 +51344,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 0.81720924, z: 0, w: 0.57634115}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
