@@ -35,9 +35,4 @@ public class activateCutscene : MonoBehaviour {
         yield return new WaitForSeconds(countdown);
         player.enabled = true;
     }
-
-    // Update is called once per frame
-    void Update () {
-
-	}
 }
