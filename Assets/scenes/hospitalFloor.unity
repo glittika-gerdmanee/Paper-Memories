@@ -6338,6 +6338,8 @@ Transform:
   - {fileID: 179337416}
   - {fileID: 1016862422}
   - {fileID: 1613623834}
+  - {fileID: 1389638462}
+  - {fileID: 485786910}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14915,8 +14917,8 @@ Transform:
   m_LocalPosition: {x: 0.2, y: 2, z: -33.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 153120403}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -270, y: 0, z: 179.99998}
 --- !u!1 &493162166
 GameObject:
@@ -20357,7 +20359,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  - {fileID: 21300000, guid: 5444e08a9cbda56418c9f328c6edcec1, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -27052,6 +27054,46 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4c17789019e83fa4f88c853aa257cc9e, type: 3}
   m_PrefabInternal: {fileID: 1031931318}
+--- !u!1 &1032133482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1032133484}
+  - component: {fileID: 1032133483}
+  m_Layer: 0
+  m_Name: LoadManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1032133483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032133482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c891411de4a1541a276270e098903d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1032133484
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032133482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.15999985, y: 2.0299997, z: 34.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1035723201
 GameObject:
   m_ObjectHideFlags: 0
@@ -31760,6 +31802,9 @@ GameObject:
   - component: {fileID: 1202858749}
   - component: {fileID: 1202858748}
   - component: {fileID: 1202858759}
+  - component: {fileID: 1202858762}
+  - component: {fileID: 1202858761}
+  - component: {fileID: 1202858760}
   m_Layer: 0
   m_Name: Flowchart_03
   m_TagString: Untagged
@@ -31794,7 +31839,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1202858738}
   selectedCommands:
-  - {fileID: 1202858759}
+  - {fileID: 1202858760}
   variables: []
   description: 'Therapy Session #1'
   stepPause: 0
@@ -33266,7 +33311,7 @@ MonoBehaviour:
   - {fileID: 1202858743}
   - {fileID: 1202858745}
   - {fileID: 1202858757}
-  - {fileID: 1202858756}
+  - {fileID: 1202858762}
   - {fileID: 1202858755}
   - {fileID: 1202858754}
   - {fileID: 1202858753}
@@ -33276,6 +33321,9 @@ MonoBehaviour:
   - {fileID: 1202858749}
   - {fileID: 1202858748}
   - {fileID: 1202858759}
+  - {fileID: 1202858756}
+  - {fileID: 1202858760}
+  - {fileID: 1202858761}
 --- !u!114 &1202858739
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -33359,13 +33407,13 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 744767234}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  portrait: {fileID: 21300000, guid: 5444e08a9cbda56418c9f328c6edcec1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 431515668}
   facing: 0
   useDefaultSettings: 0
-  fadeDuration: 0.5
+  fadeDuration: 2
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -33714,7 +33762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: '"...Yes." {w=1}'
+  storyText: '"...You too." {w=1}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -33776,7 +33824,7 @@ MonoBehaviour:
   toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 0
-  fadeDuration: 0.5
+  fadeDuration: 1
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -33798,6 +33846,109 @@ MonoBehaviour:
   storyText: '"Take care." {w=1}'
   description: 
   character: {fileID: 1147358342}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 0
+  stopVoiceover: 0
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1202858760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202858682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 78
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 63c891411de4a1541a276270e098903d, type: 3}
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: endScreen
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+BooleanEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+IntegerEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+FloatEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Fungus.InvokeEvent+StringEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1202858761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202858682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 77
+  indentLevel: 0
+--- !u!114 &1202858762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1202858682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  indentLevel: 0
+  storyText: '"...Yes." {w=1}'
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 0
@@ -37903,8 +38054,8 @@ Transform:
   m_LocalPosition: {x: 0.16, y: 2.03, z: 34.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 153120403}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -270, y: 0, z: 179.99998}
 --- !u!1 &1391639899
 GameObject:
@@ -47032,7 +47183,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787488719
 GameObject:
@@ -51344,8 +51495,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940540596}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -6.0709968, y: 2.322, z: 27.32}
+  m_LocalRotation: {x: 0, y: -0.62837046, z: 0, w: 0.7779142}
+  m_LocalPosition: {x: -6.8857913, y: 2.4083433, z: -25.833435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
